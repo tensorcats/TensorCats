@@ -25,6 +25,9 @@
 
   header
     box-shadow: $box-shadow-1
+    position: absolute
+    width: 100%
+    height: $header-height
 
   .logo
     font-size: 1.5rem

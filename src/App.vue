@@ -1,5 +1,5 @@
 <template lang="pug">
-  main-header
+  router-view
 </template>
 
 
@@ -7,13 +7,8 @@
 
 
 <script>
-  import MainHeader from '@/components/header/Main'
-
   export default {
-    name: 'app',
-    components: {
-      MainHeader
-    }
+    name: 'app'
   }
 </script>
 
