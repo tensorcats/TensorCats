@@ -10,13 +10,9 @@
   import MainHeader from '@/components/header/Main'
 
   export default {
-    name: 'app',
+    name: 'layout-edit',
     components: {
       MainHeader
     }
   }
 </script>
-
-<style lang="sass">
-  @import "./src/assets/sass/main"
-</style>
